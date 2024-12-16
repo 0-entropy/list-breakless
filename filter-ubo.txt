@@ -1,0 +1,11 @@
+[uBlock Origin]
+! Title: list-breakless for uBlock Origin
+! Description: A meticulously curated ad-block filter designed to minimize site breakage and false positives—so you never have to disable your blocker again.
+! Version: 2024.1216.0
+! Expires: 1 day
+! Homepage: https://github.com/0-entropy/list-breakless
+! Support: https://github.com/0-entropy/list-breakless
+! License: https://github.com/0-entropy/list-breakless/blob/main/LICENSE
+!
+! Version must be UTC format.
+!
