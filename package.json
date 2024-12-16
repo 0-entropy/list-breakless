@@ -1,0 +1,7 @@
+{
+  "name": "list-breakless",
+  "version": "1.0.0",
+  "description": "A meticulously curated ad-block filter designed to minimize site breakage and false positives—so you never have to disable your blocker again.",
+  "repository": "https://github.com/0-entropy/list-breakless",
+  "license": "MIT"
+}
