@@ -4,6 +4,13 @@
   "description": "A meticulously curated ad-block filter designed to minimize site breakage and false positives—so you never have to disable your blocker again.",
   "repository": "https://github.com/0-entropy/list-breakless",
   "license": "MIT",
+  "scripts": {
+    "lint": "aglint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+      "*.txt": "aglint"
+  },
   "devDependencies": {
       "@adguard/aglint": "^2.0.8",
       "husky": "^8.0.3",
