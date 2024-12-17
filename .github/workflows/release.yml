@@ -47,7 +47,7 @@ jobs:
       - name: Create a Release
         uses: List-KR/semver-release@2.2.0
     needs: [lint]
-    if: ${{ always() && github.event_name == 'push' && github.ref_name == 'master' && needs.lint.result == 'success' }}
+    if: ${{ always() && github.event_name == 'push' && github.ref_name == 'main' && needs.lint.result == 'success' }}
   
   jsdelivrpurge:
     name: Purge jsDelivr cache
@@ -56,7 +56,7 @@ jobs:
       actions: read
       contents: read
     needs: [lint, release]
-    if: ${{ always() && github.event_name == 'push' && github.ref_name == 'master' && needs.lint.result == 'success' }}
+    if: ${{ always() && github.event_name == 'push' && github.ref_name == 'main' && needs.lint.result == 'success' }}
     steps:
       - name: Set up NodeJS LTS
         uses: actions/setup-node@v4
